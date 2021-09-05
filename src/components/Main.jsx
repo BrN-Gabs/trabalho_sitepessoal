@@ -118,7 +118,7 @@ function getImagens(imagens) {
             <div className="card imagens">
                 <a href={dados.link} target="_blank"><img width="100%" height="320" src={dados.imagem}></img></a>
                 <div className="card-body">
-                    <a href={dados.link}><h3 className="text-center">{dados.nome}</h3></a>
+                    <a href={dados.link} target="_blank"><h3 className="text-center">{dados.nome}</h3></a>
                 </div>
             </div>
         </div>
